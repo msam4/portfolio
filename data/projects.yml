@@ -1,24 +1,14 @@
-- name: Longest Word Game
-  description: Decent description of the app
+- name: Trash Treasure
+  description: Traveling in Japan but can't find a trash bin to throw away your empty cans and PET bottles? Trash Treause finds you the nearest bin and guides you to it!
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Movie Watchlist
-  description: Decent description of the app
+- name: Cup to Go
+  description: An Airbnb clone application where owners can list their cups for people to rent!
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Yelp
-  description: Decent description of the app
+- name: React Giphy
+  description: A search engine to find the right GIF to send to your family and friends!
   image: projects/placeholder.png
   url: https://www.google.com
