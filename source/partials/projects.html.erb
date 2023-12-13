@@ -1,6 +1,6 @@
 <div class="projcard-container">
   <% data.projects.each do |project| %>
-    <div class="projcard projcard-blue">
+    <div class="projcard projcard-red">
       <div class="projcard-innerbox">
         <%= image_tag project.image, alt: "project image", class: "projcard-img" %>
         <div class="projcard-textbox">
@@ -12,6 +12,7 @@
             <% link_to project.url, class: 'external-link', target: '_blank' do %>
               <i class="fas fa-external-link-alt"></i>
             <% end %>
+            <%# -------- %>
           </div>
           <div class="projcard-bar"></div>
           <div class="projcard-description">
