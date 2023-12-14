@@ -2,19 +2,19 @@
   description: Traveling in Japan but can't find a trash bin to throw away your empty cans and PET bottles? Trash Treause finds you the nearest bin and guides you to it!
   image: projects/trash_treasure_mascot.png
   url: https://github.com/msam4/trash_treasure
-  tech_stack: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
+  tech_stacks: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
 
 - name: Cup to Go
   description: An Airbnb clone application where owners can list their cups for people to rent!
   image: projects/cup_to_go_homepage.png
   url: https://github.com/msam4/cup_to_go
-  tech_stack: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
+  tech_stacks: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
 
 - name: My Business Card
   description: My online business card to share with anyone!
   image: projects/my_business_card.png
   url: https://msam4.github.io/business_card/
-  tech_stack: [HTML, CSS]
+  tech_stacks: [HTML, CSS]
 
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
