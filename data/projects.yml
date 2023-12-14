@@ -19,5 +19,11 @@
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
   image: projects/react_giphy.png
-  url: https://msam4.github.io/react-giphy/
+  url: https://msam4.github.io/GIF-Search-Engine/
+  tech_stack: [Javascript, HTML, CSS]
+
+- name: To Do List
+  description: Simple todo list to keep track your task!
+  image: projects/react_giphy.png
+  url: https://msam4.github.io/to-do-list/
   tech_stack: [Javascript, HTML, CSS]
