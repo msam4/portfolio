@@ -24,6 +24,6 @@
 
 - name: To Do List
   description: Simple todo list to keep track your task!
-  image: projects/react_giphy.png
+  image: projects/todo_list.png
   url: https://msam4.github.io/to-do-list/
   tech_stack: [Javascript, HTML, CSS]
