@@ -1,7 +1,7 @@
 .button-social {
   padding: 0 16px;
   position: relative;
-  font-size: 20px;
+  font-size: 32px;
 
   &:hover {
     opacity: 0.7;
@@ -15,3 +15,99 @@
   right: 0;
   bottom: 0;
 }
+
+
+// Project Link Button
+
+.projcard-tagbox a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 32px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px 2px;
+}
+
+.button-red {
+  background-color: #fff;
+  color: #424242;
+  border: 2px solid #D62F1F;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-red-invert {
+  background-color: #D62F1F;
+  color: #fff;
+  border: 2px solid #D62F1F;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+// -------------------------------------------
+
+// Old Link Button Styling
+
+// .button {
+//   background-color: #D62F1F;
+//   border: none;
+//   color: #fff;
+//   padding: 16px 32px;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
+//   border-radius: 12px;
+//   margin: 4px 2px;
+//   transition-duration: 0.4s;
+//   cursor: pointer;
+// }
+
+// .button-red {
+//   background-color: #fff;
+//   color: #424242;
+//   border: 2px solid #D62F1F;
+//   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+// }
+
+// .button-red:hover {
+//   background-color: #D62F1F;
+//   color: #fff;
+//   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+// }
+
+// .button-red-invert:hover {
+//   background-color: #fff;
+//   color: #424242;
+//   border: 2px solid #D62F1F;
+//   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+// }
