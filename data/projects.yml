@@ -3,32 +3,32 @@
   image: projects/trash_treasure_mascot.png
   url: none
   source: https://github.com/msam4/trash_treasure
-  tech_stacks: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
+  tools: <i class="devicon-rails-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-bootstrap-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-heroku-original"></i><i class="devicon-figma-plain"></i>
 
 - name: Cup to Go
   description: An Airbnb clone application where owners can list their cups for people to rent!
   image: projects/cup_to_go_homepage.png
   url: none
   source: https://github.com/msam4/cup_to_go
-  tech_stacks: [Rails, HTML, CSS, Javascript, Bootstrap, PostgreSQL, Heroku, Figma]
+  tools: <i class="devicon-rails-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-bootstrap-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-heroku-original"></i><i class="devicon-figma-plain"></i>
 
 - name: My Business Card
   description: My online business card to share with anyone!
   image: projects/my_business_card.png
   url: https://msam4.github.io/business_card/
   source: https://github.com/msam4/business_card
-  tech_stacks: [HTML, CSS]
+  tools: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
   image: projects/react_giphy.png
   url: https://msam4.github.io/GIF-Search-Engine/
   source: https://github.com/msam4/GIF-Search-Engine
-  tech_stack: [Javascript, HTML, CSS]
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
 - name: To Do List
   description: Simple todo list to keep track your task!
   image: projects/todo_list.png
   url: https://msam4.github.io/to-do-list/build/
   source: https://github.com/msam4/to-do-list
-  tech_stack: [Javascript, HTML, CSS]
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>

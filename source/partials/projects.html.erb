@@ -8,19 +8,22 @@
             <h2><%= project.name %></h2>
           </div>
           <div class="projcard-subtitle">
-            <%# Fix this %>
-            <% link_to project.url, class: 'external-link', target: '_blank' do %>
-              <i class="fas fa-external-link-alt"></i>
-            <% end %>
-            <%# -------- %>
+            <span class="tools"><%= project.tools.html_safe %></span>
           </div>
           <div class="projcard-bar"></div>
           <div class="projcard-description">
             <p><%= project.description %></p>
           </div>
           <div class="projcard-tagbox">
-            <span class="projcard-tag">HTML</span>
-            <span class="projcard-tag">CSS</span>
+            <!--
+            <%# Fix this %>
+            <% link_to project.url, class: 'external-link', target: '_blank' do %>
+              <i class="fas fa-external-link-alt"></i>
+            <% end %>
+            <%# -------- %>
+            -->
+            <%# <span class="projcard-tag">HTML</span>
+            <span class="projcard-tag">CSS</span> %>
           </div>
         </div>
       </div>
