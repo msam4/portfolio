@@ -159,7 +159,7 @@
 	z-index: 10;
 	font-size: 15px;
 	color: #424242;
-	height: 125px;
+	height: 65px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
@@ -167,9 +167,9 @@
 	position: absolute;
 	bottom: 3%;
 	font-size: 14px;
-	cursor: default;
-	user-select: none;
-	pointer-events: none;
+	cursor: pointer;
+	// user-select: none; These two lines prevent the button to be interactive
+	// pointer-events: none;
 }
 .projcard-tag {
 	display: inline-block;

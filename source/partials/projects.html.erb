@@ -18,20 +18,17 @@
           <div class="projcard-tagbox">
             <%# Fix this %>
             <% link_to project.source, target: '_blank' do %>
-              <button class="button">View Code</button>
+              <button class="button button-red"><span>View Code</span></button>
             <% end %>
             <% if project.url == "none" %>
               <% link_to project.url, class: 'd-none', target: '_blank' do %>
-                <button class="button">Visit Site</button>
+                <button class="button button-red"><span>Visit Site</span></button>
               <% end %>
             <% else %>
               <% link_to project.url, target: '_blank' do %>
-                <button class="button">Visit Site</button>
+                <button class="button button-red-invert"><span>Visit Site</span></button>
               <% end %>
             <% end %>
-            <%# -------- %>
-            <%# <span class="projcard-tag">HTML</span>
-            <span class="projcard-tag">CSS</span> %>
           </div>
         </div>
       </div>
