@@ -28,7 +28,7 @@
   color: #000000;
 	font-size: 18px;
 	overflow: hidden;
-	cursor: pointer;
+	// cursor: pointer;
 	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
@@ -131,30 +131,11 @@
 	background-color: #424242;
 	transition: width 0.2s ease;
 }
-.projcard-blue .projcard-bar { background-color: #0088FF; }
-.projcard-blue::before { background-image: linear-gradient(-70deg, #0088FF, transparent 50%); }
-.projcard-blue:nth-child(2n)::before { background-image: linear-gradient(-250deg, #0088FF, transparent 50%); }
+
 .projcard-red .projcard-bar { background-color: #D62F1F; }
 .projcard-red::before { background-image: linear-gradient(-70deg, #D62F1F, transparent 50%); }
 .projcard-red:nth-child(2n)::before { background-image: linear-gradient(-250deg, #D62F1F, transparent 50%); }
-.projcard-green .projcard-bar { background-color: #40BD00; }
-.projcard-green::before { background-image: linear-gradient(-70deg, #40BD00, transparent 50%); }
-.projcard-green:nth-child(2n)::before { background-image: linear-gradient(-250deg, #40BD00, transparent 50%); }
-.projcard-yellow .projcard-bar { background-color: #F5AF41; }
-.projcard-yellow::before { background-image: linear-gradient(-70deg, #F5AF41, transparent 50%); }
-.projcard-yellow:nth-child(2n)::before { background-image: linear-gradient(-250deg, #F5AF41, transparent 50%); }
-.projcard-orange .projcard-bar { background-color: #FF5722; }
-.projcard-orange::before { background-image: linear-gradient(-70deg, #FF5722, transparent 50%); }
-.projcard-orange:nth-child(2n)::before { background-image: linear-gradient(-250deg, #FF5722, transparent 50%); }
-.projcard-brown .projcard-bar { background-color: #C49863; }
-.projcard-brown::before { background-image: linear-gradient(-70deg, #C49863, transparent 50%); }
-.projcard-brown:nth-child(2n)::before { background-image: linear-gradient(-250deg, #C49863, transparent 50%); }
-.projcard-grey .projcard-bar { background-color: #424242; }
-.projcard-grey::before { background-image: linear-gradient(-70deg, #424242, transparent 50%); }
-.projcard-grey:nth-child(2n)::before { background-image: linear-gradient(-250deg, #424242, transparent 50%); }
-.projcard-customcolor .projcard-bar { background-color: var(--projcard-color); }
-.projcard-customcolor::before { background-image: linear-gradient(-70deg, var(--projcard-color), transparent 50%); }
-.projcard-customcolor:nth-child(2n)::before { background-image: linear-gradient(-250deg, var(--projcard-color), transparent 50%); }
+
 .projcard-description {
 	z-index: 10;
 	font-size: 15px;
@@ -210,46 +191,84 @@
   font-size: 24px;
 }
 
-.devicon-rails-plain, .devicon-postgresql-plain, .devicon-html5-plain, .devicon-css3-plain, .devicon-bootstrap-plain, .devicon-javascript-plain, .devicon-heroku-original, .devicon-figma-plain {
+.devicon-rails-plain, .devicon-postgresql-plain, .devicon-html5-plain, .devicon-css3-plain, .devicon-bootstrap-plain, .devicon-javascript-plain, .devicon-heroku-original, .devicon-figma-plain, .devicon-react-original {
   margin: 5px;
 }
 
 // ----------------------------
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-  .external-link {
-    opacity: 1;
+@media (min-width: 375px) and (max-width: 575px) {
+  .projcard-container {
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .cards {
-    grid-template-columns: 1fr;
+  .projcard-container {
+    width: 376px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 768px) and (max-width: 991px) {
+  .projcard-container {
+    justify-content: center;
+    width: 568px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .projcard-img {
+    width: 200px;
+  }
+
+  .projcard-textbox::before,
+  .projcard-textbox::after {
+    content: none;
+  }
+
+  .projcard-textbox {
+    // position: absolute;
+    // top: 7%;
+    // bottom: 7%;
+    left: 225px;
+    // width: calc(100% - 470px);
+    // font-size: 17px;
+  }
+
+  // Incomplete reponsive. Can't get slanted line to align for every other card to the right
+
+  // .projcard-textbox::before,
+  // .projcard-textbox::after {
+  // left: -255px;
+  // }
+  // -----------------------------------
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .projcard-container {
+    width: 792px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    font-size: 12px;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
+  .projcard-container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -24,11 +24,11 @@
   image: projects/react_giphy.png
   url: https://msam4.github.io/GIF-Search-Engine/
   source: https://github.com/msam4/GIF-Search-Engine
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+  tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
 - name: To Do List
   description: Simple todo list to keep track your task!
   image: projects/todo_list.png
   url: https://msam4.github.io/to-do-list/build/
   source: https://github.com/msam4/to-do-list
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+  tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
