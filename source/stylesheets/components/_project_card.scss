@@ -199,16 +199,63 @@
 // ----------------------------
 
 // Smallest device
-@media (min-width: 375px) and (max-width: 575px) {
+@media (min-width: 375px) and (max-width: 576px) {
   .projcard-container {
-    width: 175px;
+    width: 261px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .projcard-img {
+    width: 100%;
+    opacity: 0.2;
+  }
+
+  .projcard-textbox::before,
+  .projcard-textbox::after {
+    content: none;
+  }
+
+  .projcard-textbox {
+    left: 0px;
+    padding: 10px;
+  }
+
+  .projcard:nth-child(2n) .projcard-textbox {
+    left: 0px;
+    // right: 355px;
+  }
+
+  .projcard-textbox h2 {
+    width: 220px;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .tools {
+    font-size: 14px;
+  }
+
+  .projcard-description {
+    width: 220px;
+    font-size: 14px;
+  }
+
+  .projcard-tagbox {
+    width: 235px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 0px 5px;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .projcard-container {
     width: 376px;
     margin-left: auto;
@@ -228,8 +275,9 @@
     left: 140px;
   }
 
+  // If every 2nd project card is half or not display, change the right property by decreasing the pixel.
   .projcard:nth-child(2n) .projcard-textbox {
-    left: auto;
+    left: initial;
     right: 355px;
   }
 
@@ -306,7 +354,7 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .projcard-container {
     width: 792px;
     margin-left: auto;
