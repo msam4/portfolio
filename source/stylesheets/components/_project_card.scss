@@ -214,6 +214,47 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .projcard-img {
+    width: 120px;
+  }
+
+  .projcard-textbox::before,
+  .projcard-textbox::after {
+    content: none;
+  }
+
+  .projcard-textbox {
+    left: 140px;
+  }
+
+  .projcard:nth-child(2n) .projcard-textbox {
+    left: auto;
+    right: 355px;
+  }
+
+  .projcard-textbox h2 {
+    width: 220px;
+    font-size: 24px;
+  }
+
+  .tools {
+    font-size: 14px;
+  }
+
+  .projcard-description {
+    width: 220px;
+    font-size: 14px;
+  }
+
+  .projcard-tagbox {
+    width: 220px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
