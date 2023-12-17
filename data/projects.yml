@@ -7,7 +7,7 @@
 
 - name: Cup to Go
   description: An Airbnb clone application where owners can list their cups for people to rent!
-  image: projects/cup_to_go_homepage.png
+  image: projects/cup_to_go.png
   url: none
   source: https://github.com/msam4/cup_to_go
   tools: <i class="devicon-rails-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-bootstrap-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-heroku-original"></i><i class="devicon-figma-plain"></i>
@@ -21,7 +21,7 @@
 
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
-  image: projects/react_giphy.png
+  image: projects/GIF_Search_Engine.png
   url: https://msam4.github.io/GIF-Search-Engine/
   source: https://github.com/msam4/GIF-Search-Engine
   tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
@@ -32,3 +32,10 @@
   url: https://msam4.github.io/to-do-list/build/
   source: https://github.com/msam4/to-do-list
   tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+- name: Simple Weather App
+  description: An easy to use weather app that can tell you the weather in a city.
+  image: projects/Simple_Weather_App.png
+  url: none
+  source: https://github.com/msam4/simple-weather-app
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
