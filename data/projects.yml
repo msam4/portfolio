@@ -33,9 +33,17 @@
   source: https://github.com/msam4/to-do-list
   tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
+- name: Photo Gallery
+  description: A photo gallery of all the ramen I ate.
+  image: projects/Photo_Gallery_Small_Screen.png
+  url: https://msam4.github.io/photo-gallery/
+  source: https://github.com/msam4/photo-gallery
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+
 - name: Simple Weather App
   description: An easy to use weather app that can tell you the weather in a city.
   image: projects/Simple_Weather_App.png
-  url: none
+  url: https://msam4.github.io/simple-weather-app/
   source: https://github.com/msam4/simple-weather-app
   tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
