@@ -3,7 +3,34 @@ body {
   object-fit: cover;
   object-position: center;
   color: #ffff;
+  height: 100%;
 }
+
+// New background?
+
+// @keyframes move-it {
+//   0% {
+//     background-position: initial;
+//   }
+//   100% {
+//     background-position: 100px 0px;
+//   }
+// }
+
+// body {
+//   background: repeating-linear-gradient(
+//   45deg,
+//   #606dbc,
+//   #606dbc 5%,
+//   #465298 5%,
+//   #465298 10%
+// );
+//   background-size: 100px 100px;
+//   animation: move-it 2s linear infinite;
+//   color: #ffff;
+// }
+
+// ------------------------------------------- //
 
 #about {
   width: 80%;
