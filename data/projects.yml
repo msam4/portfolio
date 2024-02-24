@@ -12,12 +12,34 @@
   source: https://github.com/msam4/cup_to_go
   tools: <i class="devicon-rails-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-bootstrap-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-heroku-original"></i><i class="devicon-figma-plain"></i>
 
-# - name: My Business Card
-#   description: My online business card to share with anyone!
-#   image: projects/my_business_card.png
-#   url: https://msam4.github.io/business_card/
-#   source: https://github.com/msam4/business_card
-#   tools: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+- name: Pokemon Pokedex
+  description: Search for information about the original 151 pokemon!
+  image: projects/Pikachu_Details.png
+  url: https://151-pokedex.netlify.app/
+  source: https://github.com/msam4/pokedex
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+- name: Who's that Pokemon? Quiz
+  description: Who's that pokemon multiple choice quiz!
+  image: projects/WTP_Q10.png
+  url: https://whos-that-pokemon-151-quiz.netlify.app/
+  source: https://github.com/msam4/pokemon-151-quiz
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+- name: Dino Jumping Game
+  description: The classic Dino game from Google Chrome! Jump to avoid the cactus!
+  image: projects/dino-game-square.png
+  url: https://msam4.github.io/dino-game/
+  source: https://github.com/msam4/dino-game
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+
+- name: Catify Google Chrome Extension
+  description: Change every image on a website into cat photos!
+  image: projects/catify-extension.png
+  url: none
+  source: https://github.com/msam4/catify-chrome-extension
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
@@ -38,25 +60,4 @@
   image: projects/Photo_Gallery_Small_Screen.png
   url: https://msam4.github.io/photo-gallery/
   source: https://github.com/msam4/photo-gallery
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
-
-- name: Simple Weather App
-  description: An easy to use weather app that can tell you the weather in a city.
-  image: projects/Simple_Weather_App.png
-  url: https://msam4.github.io/simple-weather-app/
-  source: https://github.com/msam4/simple-weather-app
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
-
-- name: Pokemon Card Generator
-  description: A generator that randomly generates a pokemon card from the original 150 pokemon!
-  image: projects/Pokemon_Card.png
-  url: https://msam4.github.io/pokemon-card/
-  source: https://github.com/msam4/pokemon-card
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
-
-- name: Who's that Pokemon? Quiz
-  description: Who's that pokemon multiple choice quiz!
-  image: projects/whos_that_pokemon_quiz.png
-  url: https://msam4.github.io/whos-that-pokemon-quiz/
-  source: https://github.com/msam4/whos-that-pokemon-quiz
   tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
