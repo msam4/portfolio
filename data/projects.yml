@@ -1,5 +1,5 @@
 - name: Trash Treasure
-  description: Traveling in Japan but can't find a trash bin to throw away your empty cans and PET bottles? Trash Treause finds you the nearest bin and guides you to it!
+  description: Traveling in Japan but can't find a trash bin to throw away your empty cans and PET bottles? Trash Treasure finds you the nearest bin and guides you to it!
   image: projects/trash_treasure_mascot.png
   url: none
   source: https://github.com/msam4/trash_treasure
