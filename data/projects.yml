@@ -46,7 +46,7 @@
   image: projects/catify-extension.png
   url: none
   source: https://github.com/msam4/catify-chrome-extension
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
+  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-chrome-plain"></i>
 
 - name: GIF Search Engine
   description: A search engine to find the right GIF to send to your family and friends!
