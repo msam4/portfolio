@@ -16,10 +16,17 @@
             <p><%= project.description %></p>
           </div>
           <div class="projcard-tagbox">
-            <%# Fix this %>
-            <% link_to project.source, target: '_blank' do %>
-              <button class="button button-red"><span>View Code</span></button>
+            <%# Need to refactor later %>
+            <% if project.source == "none" %>
+              <% link_to project.source, class: 'd-none', target: '_blank' do %>
+                <button class="button button-red"><span>View Code</span></button>
+              <% end %>
+            <% else %>
+              <% link_to project.source, target: '_blank' do %>
+                <button class="button button-red"><span>View Code</span></button>
+              <% end %>
             <% end %>
+
             <% if project.url == "none" %>
               <% link_to project.url, class: 'd-none', target: '_blank' do %>
                 <button class="button button-red"><span>Visit Site</span></button>
