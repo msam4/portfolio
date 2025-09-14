@@ -5,6 +5,20 @@
   source: none
   tools: <i class="devicon-wordpress-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-figma-plain"></i>
 
+- name: Watanabes
+  description: Indigo dyer and sukumo maker Watanabe Kenta's official ecommerce website
+  image: projects/placeholder.png
+  url: https://watanabes.jp/en
+  source: none
+  tools: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="fab fa-shopify"></i>
+
+- name: Bicycle Tokushima Kingdom
+  description: The official Tokushima prefectural government cycling website.
+  image: projects/sudachikun_cyclist.jpg
+  url: https://bicycle.tokushima-sc.jp/
+  source: https://github.com/msam4/government-cycling-website
+  tools: <i class="devicon-wordpress-plain"></i>
+
 - name: Trash Treasure
   description: Traveling in Japan but can't find a trash bin to throw away your empty cans and PET bottles? Trash Treasure finds you the nearest bin and guides you to it!
   image: projects/trash_treasure_mascot.png
@@ -19,19 +33,11 @@
   source: https://github.com/msam4/cup_to_go
   tools: <i class="devicon-rails-plain"></i><i class="devicon-postgresql-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-bootstrap-plain"></i><i class="devicon-javascript-plain"></i><i class="devicon-heroku-original"></i><i class="devicon-figma-plain"></i>
 
-
 - name: Pokemon Pokedex
   description: Search for information about the original 151 pokemon!
   image: projects/Pikachu_Details.png
   url: https://151-pokedex.netlify.app/
   source: https://github.com/msam4/pokedex
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
-
-- name: Who's that Pokemon? Quiz
-  description: Who's that pokemon multiple choice quiz!
-  image: projects/WTP_Q10.png
-  url: https://whos-that-pokemon-151-quiz.netlify.app/
-  source: https://github.com/msam4/pokemon-151-quiz
   tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
 
 - name: Dino Jumping Game
@@ -54,10 +60,3 @@
   url: https://msam4.github.io/GIF-Search-Engine/
   source: https://github.com/msam4/GIF-Search-Engine
   tools: <i class="devicon-react-original"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
-
-- name: Photo Gallery
-  description: A photo gallery of all the ramen I ate.
-  image: projects/Photo_Gallery_Small_Screen.png
-  url: https://msam4.github.io/photo-gallery/
-  source: https://github.com/msam4/photo-gallery
-  tools: <i class="devicon-javascript-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i>
