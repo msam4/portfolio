@@ -1,16 +1,24 @@
-- name: Tokushima Expo Official Website
-  description: A static website showcasing Tokushima’s booth info and events at Expo 2025.
+- name: Tokushima Zone Expo 2025 Osaka-Kansai Website
+  description: A static website showcasing Tokushima’s booth info and events at Expo 2025. *Website is no longer online.
   image: projects/expo_tokushima_logo.png
-  url: https://expotokushima.jp/
+  url: none
   source: none
   tools: <i class="devicon-wordpress-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-figma-plain"></i>
 
 - name: Watanabes
-  description: Indigo dyer and sukumo maker Watanabe Kenta's official ecommerce website
+  description: Indigo dyer and sukumo maker Watanabe Kenta's official ecommerce website.
   image: projects/placeholder.png
   url: https://watanabes.jp/en
   source: none
   tools: <i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="fab fa-shopify"></i>
+
+- name: Business Card Automation Tool
+  description: An office automation tool to generate business cards for every staff within seconds.
+  image: projects/business_card_mockup.png
+  url: none
+  source: none
+  tools: <i class="devicon-google-plain"></i>
+
 
 - name: Bicycle Tokushima Kingdom
   description: The official Tokushima prefectural government cycling website.
