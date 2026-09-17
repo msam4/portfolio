@@ -1,9 +1,9 @@
-- name: Tokushima Zone Expo 2025 Osaka-Kansai Website
-  description: A static website showcasing Tokushima’s booth info and events at Expo 2025. *Website is no longer online.
+- name: Tokushima Zone World Expo 2025
+  description: A static website showcasing Tokushima’s booth info and events.
   image: projects/expo_tokushima_logo.png
-  url: none
+  url: https://world-expo-2025-tokushima-booth.webflow.io/
   source: none
-  tools: <i class="devicon-wordpress-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-figma-plain"></i>
+  tools: <i class="devicon-webflow-original"></i><i class="devicon-wordpress-plain"></i><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-figma-plain"></i>
 
 - name: Watanabes
   description: Indigo dyer and sukumo maker Watanabe Kenta's official ecommerce website.
